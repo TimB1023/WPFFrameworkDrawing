@@ -86,6 +86,7 @@ namespace SimpleShapes
 
             foreach (RandomWalker rw in Walkers)
             {
+
                 rw.MoveWalker();
                 DisplayWalker(rw);
             }

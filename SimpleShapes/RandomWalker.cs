@@ -31,7 +31,7 @@ namespace SimpleShapes
             this.WindowWidth = inX * 2;
             this.WindowHeight = inY * 2;
         }
-
+            
         public void MoveWalker() //random angle around previous angle
         {
             
@@ -46,7 +46,9 @@ namespace SimpleShapes
         public void MoveWalker1() //simple up, down, left right
         {
 
-            
+            //float RandomAngle = (float)(Rand.Next(0, 360) / (2*Math.PI));
+            //this.X = (float)(this.X + (1 * Math.Cos(RandomAngle)));
+            //this.Y = (float)(this.Y + (1 * Math.Sin(RandomAngle)));
 
             //int Choice = Rand.Next(4);
             switch (Rand.Next(4))
